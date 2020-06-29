@@ -1,0 +1,27 @@
+﻿  Compiling CUDA source file ..\GPU\GPUEngine.cu...
+  
+  C:\Users\marci\Desktop\Test-master\VC_CUDA102>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWITHGPU -D_CRT_SECURE_NO_WARNINGS -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MTd " -o x64\Debug\GPUEngine.cu.obj "C:\Users\marci\Desktop\Test-master\GPU\GPUEngine.cu" 
+  GPUEngine.cu
+  Backup.cpp
+  Check.cpp
+  HashTable.cpp
+  Merge.cpp
+  Network.cpp
+C:\Users\marci\Desktop\Test-master\Network.cpp(657): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(1849): note: see declaration of 'inet_ntoa'
+C:\Users\marci\Desktop\Test-master\Network.cpp(776): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(2219): note: see declaration of 'gethostbyname'
+  PartMerge.cpp
+  Int.cpp
+  IntGroup.cpp
+  IntMod.cpp
+  main.cpp
+  Point.cpp
+  Random.cpp
+  SECP256K1.cpp
+  Thread.cpp
+  Timer.cpp
+  Kangaroo.cpp
+  Generating Code...
+     Creating library C:\Users\marci\Desktop\Test-master\VC_CUDA102\x64\Debug\Kangaroo.lib and object C:\Users\marci\Desktop\Test-master\VC_CUDA102\x64\Debug\Kangaroo.exp
+  Kangaroo.vcxproj -> C:\Users\marci\Desktop\Test-master\VC_CUDA102\x64\Debug\Kangaroo.exe
